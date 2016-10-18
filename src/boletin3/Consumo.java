@@ -77,4 +77,9 @@ public class Consumo {
         consumoEur=consumoEur*this.pGas;
         return consumoEur;
     }
+
+    @Override
+    public String toString() {
+        return "Consumo{" + "kms=" + kms + ", litros=" + litros + ", vMed=" + vMed + ", pGas=" + pGas + '}';
+    }
 }
